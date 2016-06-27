@@ -1,10 +1,24 @@
 Seb:
   owner_name: Seb
-  name: Sab's home
+  name: Seb's home
   summary: Charming room in montmartre
   picture: card-paris.jpg
   owner_picture: seb.jpg
   city: Paris
+  contry: France
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  Accommodates: 2
+  Bathrooms: 1
+  Bed type: Real Bed
+  Bedrooms: 1
+  Beds: 1
+  Property type: Apartment
+  Room type: Entire home/apt
+  Kitchen: true
+  Wifi: true
+  TV: true
+  Welcome drink: true
+  Rate: 4
 Romain:
   owner_name: Romain
   name: Romain's home
@@ -12,10 +26,38 @@ Romain:
   picture: card-london.jpeg
   owner_picture: romain.jpeg
   city: London
-anne:
+  contry: UK
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  Accommodates: 2
+  Bathrooms: 1
+  Bed type: Real Bed
+  Bedrooms: 1
+  Beds: 1
+  Property type: Apartment
+  Room type: Entire home/apt
+  Kitchen: true
+  Wifi: true
+  TV: true
+  Welcome drink: true
+  Rate: 4
+Anne:
   owner_name: Anne
   name: Anne's home
   summary: Charming room in Brussels
   picture: card-brussels.jpeg
   owner_picture: anne.jpg
   city: Brussels
+  contry: Belgium
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  Accommodates: 2
+  Bathrooms: 1
+  Bed type: Real Bed
+  Bedrooms: 1
+  Beds: 1
+  Property type: Apartment
+  Room type: Entire home/apt
+  Kitchen: true
+  Wifi: true
+  TV: true
+  Welcome drink: true
+  Rate: 4
