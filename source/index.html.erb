@@ -9,27 +9,27 @@
 
     <!-- Your features code -->
   <class class="row">
-    <class class="card text-center col-xs-offset-4 col-xs-4">
+    <class class="feature text-center col-xs-offset-4 col-xs-4">
       <img src="images/globe.png" alt="">
       <h1>Discover the world</h1>
       <h2>The earth is your new home.</h2>
     </class>
   <class class="row">
-    <class class="card text-center col-xs-offset-4 col-xs-4">
+    <class class="feature text-center col-xs-offset-4 col-xs-4">
       <img src="images/dollar.png" alt="">
       <h1>Pay online</h1>
       <h2>No cash issues anymore.</h2>
     </class>
   </class>
     <class class="row">
-    <class class="card text-center col-xs-offset-4 col-xs-4">
+    <class class="feature text-center col-xs-offset-4 col-xs-4">
       <img src="images/beer.png" alt="">
       <h1>Meet people</h1>
       <h2>Discover new culture and lifestyle.</h2>
     </class>
   </class>
     <class class="row">
-    <class class="card text-center col-xs-offset-4 col-xs-4">
+    <class class="feature text-center col-xs-offset-4 col-xs-4">
       <img src="images/heart.png" alt="">
       <h1>Share and love</h1>
       <h2>Join a community you will love.</h2>
@@ -37,6 +37,22 @@
   </class>
   </class>
 
+  <div class="container">
+  <class class="row">
+    <% data.flats.each do |owne, flat| %>
+      <class class="col-xs-12 col-sm-4">
+        <div class="card" style="background: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url('<%= image_path flat.picture%>')">
+          <img class="image-avatar" src="<%= image_path flat.owner_picture %>" alt="">
+          <div class="card-title"><h1><%= flat.city %></h1></div>
+          <div class="card-description">
+            <h2><%= flat.name %></h2>
+            <h3><%= flat.summary %></h3>
+          </div>
+        </div>
+      </class>
+    <% end %>
+  </class>
+  </div>
 
 
     <!-- Your newsletter code -->

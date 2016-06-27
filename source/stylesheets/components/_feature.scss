@@ -1,1 +1,31 @@
 
+.feature {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.feature-description {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+.feature-title {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.feature h1 {
+  font-size: 25px;
+  color: $gray-darker;
+  font-family: Open-sans, sans-serif
+}
+
+.feature h2 {
+ font-size: 15px;
+ color: $gray-darker;
+ font-family: Open-sans, sans-serif;
+}
+

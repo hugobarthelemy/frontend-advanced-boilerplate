@@ -1,0 +1,21 @@
+Seb:
+  owner_name: Seb
+  name: Sab's home
+  summary: Charming room in montmartre
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  city: Paris
+Romain:
+  owner_name: Romain
+  name: Romain's home
+  summary: Charming room in London
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  city: London
+anne:
+  owner_name: Anne
+  name: Anne's home
+  summary: Charming room in Brussels
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  city: Brussels

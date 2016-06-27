@@ -1,3 +1,51 @@
-.card img{
+.card {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+.card-title {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.card h1 {
+  font-size: 25px;
+  color: white;
+  font-family: Open-sans, sans-serif
+}
+
+.card h2 {
+ font-size: 15px;
+ color: white;
+ font-family: Open-sans, sans-serif;
+}
+
+.card h3 {
+ font-size: 15px;
+ color: white;
+ font-family: Open-sans, sans-serif;
+}
+
+.image-avatar {
+  border-radius: 50px;
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.image-avatar-big {
+  padding-top: 50px;
+  border-radius: 50%;
   width: 150px;
+  top: 25px;
+  right: 25px;
 }
