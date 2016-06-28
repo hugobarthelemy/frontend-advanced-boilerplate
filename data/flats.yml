@@ -9,15 +9,15 @@ Seb:
   about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   Accommodates: 2
   Bathrooms: 1
-  Bed type: Real Bed
+  Bed_type: Real Bed
   Bedrooms: 1
   Beds: 1
-  Property type: Apartment
-  Room type: Entire home/apt
+  Property_type: Apartment
+  Room_type: Entire home/apt
   Kitchen: true
   Wifi: true
   TV: true
-  Welcome drink: true
+  Welcome_drink: true
   Rate: 4
 Romain:
   owner_name: Romain
@@ -30,15 +30,15 @@ Romain:
   about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   Accommodates: 2
   Bathrooms: 1
-  Bed type: Real Bed
+  Bed_type: Real Bed
   Bedrooms: 1
   Beds: 1
-  Property type: Apartment
-  Room type: Entire home/apt
+  Property_type: Apartment
+  Room_type: Entire home/apt
   Kitchen: true
   Wifi: true
   TV: true
-  Welcome drink: true
+  Welcome_drink: true
   Rate: 4
 Anne:
   owner_name: Anne
@@ -51,13 +51,13 @@ Anne:
   about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   Accommodates: 2
   Bathrooms: 1
-  Bed type: Real Bed
+  Bed_type: Real Bed
   Bedrooms: 1
   Beds: 1
-  Property type: Apartment
-  Room type: Entire home/apt
+  Property_type: Apartment
+  Room_type: Entire home/apt
   Kitchen: true
   Wifi: true
   TV: true
-  Welcome drink: true
+  Welcome_drink: true
   Rate: 4

@@ -1,8 +1,70 @@
-<%= owner_name %>
-<%= flat_info = data.flats[owner_name] %>
-<%= flat_info.name %>
+<% flat_info = data.flats[owner_name] %>
+
+
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('<%= image_path flat_info.picture %>'); height: 50vh;">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+      <div class="head-flat-owner text-center">
+        <img src="<%= image_path flat_info.owner_picture %>" alt="" class="img-circule">
+        <p><%= flat_info.owner_name %></p>
+      </div>
+      <div class="head-flat-name">
+        <h1><%= flat_info.summary %></h1>
+        <p><%= flat_info.city %>, <%= flat_info.contry %></p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <p>le formulaire ici</p>
+    </div>
+  </div>
+</div>
 
 <h1>About this flat</h1>
+<p><%= flat_info.about %></p>
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12 col-sm-2">
+        <p>The space</p>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <p>Accommodates: <%= flat_info.Accommodates %>
+        <br>Bathrooms: <%= flat_info.Bathrooms %>
+        <br>Bed type: <%= flat_info.Bed_type %>
+        <br>Bedrooms: <%= flat_info.Bedrooms %>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <p>Beds: <%= flat_info.Beds %>
+        <br>Property type: <%= flat_info.Property_type %>
+        <br>Room type: <%= flat_info.Room_type %>
+        </p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-2">
+      <p>Amenities</p>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <% if flat_info.Kitchen == true %>
+        <%= image_tag "noun_146257.png" %> Kitchen
+        <% end %>
+        <% if flat_info.TV == true %>
+        <%= image_tag "noun_10291.png" %> TV
+        <% end %>
+        <% if flat_info.Wifi == true %>
+        <%= image_tag "noun_34656.png" %> Wifi
+        <% end %>
+        <% if flat_info.Welcome_drink == true %>
+        <%= image_tag "noun_13500.png" %> Welcome drink
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+      </div>
+  </div>
+</div>
 
 
 
